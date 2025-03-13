@@ -1,5 +1,6 @@
 import { GoogleIcon } from '@/app/components/SVG';
 import React from 'react';
+import Image from 'next/image';
 
 export default function Home() {
     return (
@@ -19,9 +20,11 @@ export default function Home() {
                 <div className="bg-white w-full max-w-md rounded-lg shadow-md p-6">
                     {/* User Info */}
                     <div className="flex flex-col mb-6">
-                        <img
-                            src="https://via.placeholder.com/64"
+                        <Image
+                            src={""}
                             alt="Profile"
+                            width={64}
+                            height={64}
                             className="w-16 h-16 rounded-full object-cover mr-4"
                         />
                         <div>

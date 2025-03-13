@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "../globals.css";
 import SideNav from '../components/SideNav'
-import Header from '../components/Header'
-
-const inter = Inter({
-    variable: "--font-inter",
-    subsets: ["latin"],
-});
+import Header from '../components/Header';
 
 export const metadata: Metadata = {
     title: "Dashboard | aorthar.io",
